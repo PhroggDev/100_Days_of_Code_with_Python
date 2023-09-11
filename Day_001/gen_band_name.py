@@ -10,8 +10,10 @@ print("""
     """)
 
 
-# def gen_name():
-
+# def gen_name(): ## Proper python workflow we would more likely to code a
+# series of functions to be called by a main() function
+# This exercise just calls for simple inputs and outputs with no validation of
+# inputs
 
 first_word = input("Please enter the name of the city or town you were born in: ")
 second_word = input("Please enter the name you called your first pet: ")
