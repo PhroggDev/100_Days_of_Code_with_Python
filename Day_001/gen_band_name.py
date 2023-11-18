@@ -15,5 +15,5 @@ print("""
 
 first_word = input("Please enter the name of the city or town you were born in: ")
 second_word = input("Please enter the name you called your first pet: ")
-print("Your home-town band might be named")
+print("Your home-town band might be named...")
 print(first_word, second_word)
