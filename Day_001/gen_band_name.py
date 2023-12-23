@@ -1,4 +1,6 @@
-print("""
+"""Requests two strings then concatenates them into a string that printed to stdout"""
+print(
+    """
     =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
     Welcome to Band Name the generator
     You will prompted for two strings
@@ -7,7 +9,8 @@ print("""
     If any input is over 12 characters long you will be prompted
     for a new value
     =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-    """)
+    """
+)
 
 
 # def gen_name(): ## Proper python workflow we would more likely to code a
