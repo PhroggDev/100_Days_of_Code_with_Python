@@ -21,12 +21,8 @@ I'm sure a day in the next two week (those first 15 days are supposed to be basi
 from os import environ
 
 
-<<<<<<< Updated upstream
-username = environ.get("USER")           # probably not portable to other OS
-=======
 username = environ.get("USER")           # maybe not portable to other OS; I'm doing this on  
 										 # Debian bookworm
->>>>>>> Stashed changes
 print(f"Your username is: {username}")   # f-strings FTW
 print(f"There are {len(username)} characters in your username")
 
@@ -57,13 +53,9 @@ It is my firm belief that good, or better still ***Best*** practices should be i
 
 The project for today is to write a script for generating Band Names. The script in essence takes two user supplied strings, concatenates them with a separating ' ' (space) and prints that result to screen.  
 Oh boy!  
-<<<<<<< Updated upstream
-To simplify debugging I will start with doing some input validation on the user supplied strings. If there is one thing I learned in my forays into IT Security and PenTesting it is that if user's can fudge up an input ---> **They Will!!!**
-=======
 To simplify debugging I will start with doing some input validation on the user supplied strings.<br>
 If there is one thing I learned in my forays into IT Security and PenTesting it is that if users can<br>
 fudge up an input ---> **They Will!**
->>>>>>> Stashed changes
 
 #### Project Steps
 
